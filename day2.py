@@ -22,9 +22,13 @@ text = f"Welcome {name}"
 print(text);
 
 x = 12
-y = "12.1"
-x = f"add result = {x}"
-print()
 
-print("Add result = {add}".format(add=(x)))
+#print("Add result = {add}".format(add=(x)))
 print(type(x))
+metin = f"Welcome {x}"
+print(metin); # output=> Welcome 12
+
+number = int(input("Lutfen tam bir sayi giriniz: "))
+number = f"girdiginiz sayi = {number}" 
+print(type(number)); #output => <class 'str'>
+print(number); #girdiginiz sayi = 23
